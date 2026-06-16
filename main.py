@@ -198,7 +198,7 @@ async def main(page: ft.Page):
                 ft.Container(
                     content=ft.Text("CPA", color="#F2FF3E", size=22,
                                     weight=ft.FontWeight.BOLD),
-                    margin=ft.margin.only(left=14),
+                    
                 )
             ],
         )
@@ -299,7 +299,7 @@ async def main(page: ft.Page):
                         ft.Container(
                             width=float("inf"),
                             bgcolor="#1E3A5F",
-                            padding=ft.padding.symmetric(vertical=32, horizontal=20),
+                          
                             content=ft.Column(
                                 horizontal_alignment=ft.CrossAxisAlignment.CENTER,
                                 spacing=8,
@@ -325,7 +325,7 @@ async def main(page: ft.Page):
                             bgcolor="white",
                             border_radius=20,
                             padding=24,
-                            margin=ft.margin.all(16),
+                           
                             shadow=ft.BoxShadow(blur_radius=12, color="#1E3A5F22"),
                             content=ft.Column(
                                 spacing=16,
@@ -370,7 +370,7 @@ async def main(page: ft.Page):
                         ),
                         # Feature chips
                         ft.Container(
-                            padding=ft.padding.symmetric(horizontal=16, vertical=8),
+                           
                             content=ft.Row(
                                 alignment=ft.MainAxisAlignment.SPACE_EVENLY,
                                 controls=[
@@ -536,8 +536,8 @@ async def main(page: ft.Page):
                     content=ft.Text(n, size=12, text_align=ft.TextAlign.RIGHT),
                     bgcolor="#EFF6FF",
                     border_radius=10,
-                    padding=ft.padding.symmetric(horizontal=14, vertical=10),
-                    border=ft.border.all(1, "#BFDBFE"),
+                   
+                    
                 )
                 for n in NOTIFICATIONS
             ],
@@ -558,7 +558,7 @@ async def main(page: ft.Page):
                         # Balance card
                         ft.Container(
                             width=float("inf"),
-                            padding=ft.padding.symmetric(vertical=28, horizontal=20),
+                            
                             gradient=ft.LinearGradient(
                                 begin=ft.Alignment.TOP_RIGHT,
                                 end=ft.Alignment.BOTTOM_LEFT,
@@ -588,8 +588,7 @@ async def main(page: ft.Page):
                                         ),
                                         bgcolor="#0F172A",
                                         border_radius=8,
-                                        padding=ft.padding.symmetric(
-                                            horizontal=12, vertical=6),
+                                        
                                     ),
                                 ],
                             ),
@@ -602,7 +601,7 @@ async def main(page: ft.Page):
                             bgcolor="#FFFFFF",
                             border_radius=16,
                             padding=20,
-                            margin=ft.margin.symmetric(horizontal=16),
+                            
                             shadow=ft.BoxShadow(blur_radius=8, color="#09144E"),
                             content=ft.Column(
                                 spacing=16,
@@ -630,7 +629,7 @@ async def main(page: ft.Page):
                             bgcolor="white",
                             border_radius=16,
                             padding=20,
-                            margin=ft.margin.symmetric(horizontal=16),
+                            
                             shadow=ft.BoxShadow(blur_radius=8, color="#1E3A5F18"),
                             content=ft.Column(
                                 spacing=12,
@@ -663,7 +662,7 @@ async def main(page: ft.Page):
                     border_radius=16,
                     padding=18,
                     shadow=ft.BoxShadow(blur_radius=6, color="#1E3A5F15"),
-                    border=ft.border.only(right=ft.BorderSide(4, "#3B82F6")),
+                   
                     content=ft.Column(
                         spacing=8,
                         controls=[
@@ -675,8 +674,7 @@ async def main(page: ft.Page):
                                                         color="#6B7280"),
                                         bgcolor="#F3F4F6",
                                         border_radius=6,
-                                        padding=ft.padding.symmetric(
-                                            horizontal=8, vertical=3),
+                                        
                                     ),
                                     ft.Icon(ft.Icons.ARTICLE,
                                             color="#3B82F6", size=18),
@@ -715,7 +713,7 @@ async def main(page: ft.Page):
                             bgcolor="#EFF6FF",
                             border_radius=10,
                             padding=12,
-                            margin=ft.margin.only(bottom=16),
+                            
                             content=ft.Row(
                                 controls=[
                                     ft.Icon(ft.Icons.TRENDING_UP,
@@ -777,8 +775,7 @@ async def main(page: ft.Page):
                                         ),
                                         bgcolor="#FFFFFF33",
                                         border_radius=20,
-                                        padding=ft.padding.symmetric(
-                                            horizontal=14, vertical=6),
+                                       
                                     ),
                                 ],
                             ),
@@ -811,8 +808,7 @@ async def main(page: ft.Page):
                             bgcolor="#FFFBEB",
                             border_radius=10,
                             padding=12,
-                            margin=ft.margin.only(bottom=16),
-                            border=ft.border.all(1, "#FDE68A"),
+                            
                             content=ft.Row(
                                 controls=[
                                     ft.Icon(ft.Icons.STAR, color="#F59E0B", size=18),
